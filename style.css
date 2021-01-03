@@ -34,7 +34,9 @@ content {
 	display: block;
 	margin-top: 20px;
 }
-
+content img {
+	width: 80%;
+}
 ::selection {
 	background: white;
 	color: black;
@@ -144,6 +146,12 @@ content {
 	/* border-right: 1px solid white; */
 	max-height: 85vh;
 	overflow-y: scroll;
+	overflow-x: hidden;
+}
+pre {
+	border: 0.5px dotted white;
+	width: 90%;
+	overflow: scroll;
 }
 #warn span {
 	font-size: 50px;
