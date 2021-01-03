@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Overpopulation and it's impacts on Earth's capacity</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+		<base target="_blank">
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  </head>
+  <body>
+		<div id="load" class="lds-roller">Loading...<div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+		<!-- other -->
+		<!-- <div id="gz">&times;</div> -->
+		<img id="r2" class="ro" src="https://lh3.googleusercontent.com/proxy/uDeJf2fpsPskWH2D8-uZu0kAopVCg5OpsUMxPZSCbWaWw9P6sdQMV2PNEVAF1BJjZhpkljfOP1S4cBg9YXGADn-HAA5mwy_lhPuLwOJfvsWWkgAqhlBAAO4" alt="Rocket PNG Transparent Images | PNG All"/>
+		<img id="r3" class="ro" src="https://lh3.googleusercontent.com/proxy/uDeJf2fpsPskWH2D8-uZu0kAopVCg5OpsUMxPZSCbWaWw9P6sdQMV2PNEVAF1BJjZhpkljfOP1S4cBg9YXGADn-HAA5mwy_lhPuLwOJfvsWWkgAqhlBAAO4" alt="Rocket PNG Transparent Images | PNG All"/>
+		<img id="r4" class="ro" src="https://lh3.googleusercontent.com/proxy/uDeJf2fpsPskWH2D8-uZu0kAopVCg5OpsUMxPZSCbWaWw9P6sdQMV2PNEVAF1BJjZhpkljfOP1S4cBg9YXGADn-HAA5mwy_lhPuLwOJfvsWWkgAqhlBAAO4" alt="Rocket PNG Transparent Images | PNG All"/>
+		<img id="r5" class="ro" src="https://lh3.googleusercontent.com/proxy/uDeJf2fpsPskWH2D8-uZu0kAopVCg5OpsUMxPZSCbWaWw9P6sdQMV2PNEVAF1BJjZhpkljfOP1S4cBg9YXGADn-HAA5mwy_lhPuLwOJfvsWWkgAqhlBAAO4" alt="Rocket PNG Transparent Images | PNG All"/>
+
+		<img id="moon" class="r" src="./moon.gif" alt="Moon transparent PNG - StickPNG"/>
+		<img id="rocket" src="https://media1.giphy.com/media/3Fn48BycQFHImJjsN8/giphy.gif?cid=6c09b952fbfe43ae7ea762de25172876595f05093781e99b&amp;rid=giphy.gif" alt="caju Sticker for iOS &amp; Android | GIPHY"/>
+		<img id="mars" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1c107d2f-f955-413e-972e-a71a5cdbb666/dcr6foe-6350c695-c6d9-4e07-a783-2bff999e4e36.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMWMxMDdkMmYtZjk1NS00MTNlLTk3MmUtYTcxYTVjZGJiNjY2XC9kY3I2Zm9lLTYzNTBjNjk1LWM2ZDktNGUwNy1hNzgzLTJiZmY5OTllNGUzNi5naWYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.RHFLCNTUWXA0o1aJ6Oq-Wp1oEgJoPNXCI8RQ2IrNvh4" alt="Mars Animation Gif by Krapey on DeviantArt"/>
+		<!-- end other -->
+		<div id="container">
+			<div id="slidstuff">
+					<div id="slide">
+					</div>
+					<br>
+					<button class="move" id="move-beg">&laquo;</button>
+					<button class="move" id="move-back">&lsaquo;</button>
+					<span id="ss"></span>
+					<button class="move" id="move-next">&rsaquo;</button>
+					<button class="move" id="move-last">&raquo;</button>
+					<br>(or use arrow keys)
+			</div>
+			<div id="gl">
+					<!-- a -->
+					<div id="g"><canvas id='Globe' width='500' height='500'></canvas></div>
+				
+					<br><input id="roc" type='checkbox' checked>
+					<label for="roc">Rockets</label>
+					
+					<br><input id="rotate" type='checkbox' checked>
+					<label for="rotate">Rotate Globe</label>
+					<br><input id="rmoon" type='checkbox' checked>
+					<label for="rmoon">Revolve Moon</label>
+
+					<br><button id="reset">Reset Globe</button>
+
+					<br><button onclick="openFullscreen()">Fullscreen &#9974;</button>
+			</div>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+		<script type='text/javascript' src='./d3.v3.min.js'></script>
+		<script type='text/javascript' src='./topojson.v1.min.js'></script>
+		<script type='text/javascript' src='./planetaryjs.min.js'></script>
+		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+		<script type='text/javascript' src="./info.js"></script>
+		<script type='text/javascript' src="./script.js"></script>
+
+		<footer>
+		<!-- <hr> -->
+		&copy; 2020-2021 Cole Wilson<br><a href="javascript:last();" target="_top" style="cursor:pointer!important;">Sources</a></footer>
+		<div id="warn"><span>Notice:</span><br>You must have a bigger screen for this to work.<br>Please use a desktop or make the window larger or <button onclick="openFullscreen()">go fullscreen &#9974;</button>.<br><button onclick="$('#warn').css('display','none');">Ignore (not reccomended)</button></div>
+  </body>
+</html>
