@@ -5,23 +5,37 @@ body {
 	text-align: center;
 	margin: 0;
 	overflow: hidden;
-	cursor: url("./star.png") 31 31,auto;
+	cursor: url("/img/star.png") 31 31,auto;
 	font-family: 'Courier New', Courier, monospace;
 }
+#thanks {
+	display: none;
+	position: fixed;
+	top: 40vh;
+	right: 0vw;
+	font-size: 3em;
+	z-index: 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+}
 * {
-	cursor: url("./star.png") 31 31,auto;
+	cursor: url("/img/star.png") 31 31,auto;
 }
 button {
-	cursor: url("./star2.png") 31 31,auto!important;
+	cursor: url("/img/star2.png") 31 31,auto!important;
 }
 p,h1,h2,h3,h4,h5,h6,i,b,u,s,ins,del,span,em,footer {
-	cursor: url("./star3.png") 31 31,auto!important;
+	cursor: url("/img/star3.png") 31 31,auto!important;
 }
+
+m {
+	display: inline;
+	border: 1px solid red;
+}
+
 #Globe {
-	cursor: url("./earth.png") 31 31,auto!important;
+	cursor: url("/img/earth.png") 31 31,auto!important;
 }
 a {
-	cursor: url("./star2.png") 31 31,auto!important;
+	cursor: url("/img/star2.png") 31 31,auto!important;
 }
 
 a:link {color: white;}      /* unvisited link */
@@ -43,15 +57,13 @@ content img {
 }
 #rocket,#mars {
 	position: fixed;
-	top: 0;
-	left: 55vw;
 }
 #moon {
 	position: fixed;
 	width: 70px;
-	top: 50vh;
+	bottom: 390px;
 	z-index: 999;
-	left: 91vw;
+	right: 80px;
 	height: 70px;
   animation-iteration-count: infinite;
   animation-duration: 10s;
@@ -61,17 +73,18 @@ content img {
 	animation-name: moon;
 }
 @keyframes moon {
-  0% {top: 50vh; left: 75vw; z-index: 0;}
-  25% {top: 60vh; left: 62vw; z-index: 0;}
-	50% {top: 63vh; left: 75vw; z-index: 999;}
-	75% {top: 60vh; left: 97vw; z-index: 0;}
-	100% {top: 50vh; left: 75vw; z-index: 0;}
+  0% {bottom: 320px; right: 254px; z-index: 0;}
+  75% {bottom: 260px; right: 26px; z-index: 0;}
+	50% {bottom: 200px; right: 250px; z-index: 999;}
+	25% {bottom: 260px; right: 460px; z-index: 0;}
+	100% {bottom: 320px; right: 254px; z-index: 0;}
 }
 
 .ro {
 	height: 30px;
 	z-index: 0;
 	position: fixed;
+  animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
 .ro.no {
@@ -92,7 +105,7 @@ content img {
 
 #r3 {
 	transform: rotate(60deg);
-  animation-duration: 20s;
+  animation-duration: 15s;
 	animation-name: r3;
 }
 @keyframes r3 {
@@ -102,7 +115,7 @@ content img {
 
 #r4 {
 	transform: rotate(-30deg);
-  animation-duration: 60s;
+  animation-duration: 20s;
 	animation-name: r4;
 }
 @keyframes r4 {
@@ -116,6 +129,8 @@ content img {
 
 
 #mars {
+	top: 0;
+	left: 55vw;
 	width: 150px;
 	height: 150px;
 	transform: rotate(180deg);
@@ -126,8 +141,8 @@ content img {
   -o-transition: all 2s ease;
   -ms-transition: all 2s ease;
   transition: all 2s ease;
-	top: 46vh;
-	left: 75vw;
+	bottom: 200px;
+	right: 250px;
 	width: 100px;
 	height: 100px;
 	z-index: 0;
@@ -145,13 +160,13 @@ content img {
 	padding-left: 50px;
 	/* border-right: 1px solid white; */
 	max-height: 85vh;
-	overflow-y: scroll;
+	overflow-y: auto;
 	overflow-x: hidden;
 }
 pre {
 	border: 0.5px dotted white;
 	width: 90%;
-	overflow: scroll;
+	overflow: auto;
 }
 #warn span {
 	font-size: 50px;

@@ -4,10 +4,30 @@ setTimeout(function(){ $("#load").css('display','none'); }, 4000);
 
 var mx,my;
 slides = []
-// alert(marked('*j*'))
+
+
+setInterval(function(){
+	if (cslide==3-1) {
+		globe.plugins.pings.add(104.1954,35.8617, { color: 'red', ttl: 1000, angle: size});     //china
+
+		globe.plugins.pings.add(14.8966,-0.6606, { color: 'red', ttl: 1000, angle: size});//congo basin
+
+
+		globe.plugins.pings.add(-62.2159,-3.4653, { color: 'red', ttl: 1000, angle: size});//amazon
+		
+	}
+	else if (cslide==3-2){//undev countries
+		globe.plugins.pings.add(8.0817,17.6078, { color: 'red', ttl: 1000, angle: size});     //niger
+
+		globe.plugins.pings.add(17.8739,-11.2027, { color: 'red', ttl: 1000, angle: size});//angolia
+	}
+
+},1000)
+
+
 for (k in md) {	
 	slides.push(marked(md[k]));
-	console.log(marked(md[k]))
+	console.log(marked(md[k]));
 }
 
 selectValues = [];
@@ -54,8 +74,8 @@ function mars() {
 	// $("#rocket").css('display','inline-block');
 	$('#rocket').css('z-index','999999999999999');
 	$("#rocket").css({
-		'top':"0vh",
-		'left':"57vw",
+		'bottom':"87vh",
+		'right':"38vw",
 	});
 	setTimeout(function(){ $("#rocket").css('transform','rotate(0deg)'); }, 2000);
 	setTimeout(function(){ $("#rocket").css({'display':'none','left':'75vh','top':'46vh'}); }, 4000);
@@ -68,13 +88,41 @@ window.addEventListener("keydown", function(event){
 	else if (event.keyCode == 39 && goclick) {next();}//right arrow= 39
 	
 });
+function thanks() {
+	$('#thanks').fadeIn();
+}
 function it() {
-	if (cslide==1) {
-		mars();
+	if (cslide==8-1) {
+		setTimeout(mars,3000);
 	}
-	// if {
-		
-	// }
+	if (cslide==9-1) {
+		setTimeout(thanks,3000);
+	}
+	if (cslide == 3-1 || cslide == 2-1){
+		$('#moon').hide()
+		//Do globe zoom
+		rotateGlobe = false;
+		document.getElementById('rotate').checked = false;
+		document.getElementById('rmoon').checked = false;
+		$('#moon').removeClass('r');	
+	}
+	else {
+		$('#moon').show()
+		rotateGlobe = true;
+		document.getElementById('rotate').checked = true;
+		document.getElementById('rmoon').checked = true;
+		$('#moon').addClass('r');
+		globe.projection.scale(200);
+	}
+
+
+	if (cslide==3-1) {
+		globe.projection.scale(400).rotate([25, 0, 0]);
+	}
+	else if (cslide==2-1) {
+		globe.projection.scale(400).rotate([-10, 0, 0]);
+	}
+	
 }
 function back() {
 	if (cslide-1>-1) {
@@ -128,18 +176,22 @@ $("#move-back").click(function(){back()});
 $("#move-next").click(function(){next()});
 
 
-var size = 10
-var color = 'red'
-var long = 0
-var lat = 0
+var size = 10;
+var color = 'red';
+var long = 0;
+var lat = 0;
 
 
 
-setInterval(function(){
-	if (!(lat==0&&long==0)) {
-		globe.plugins.pings.add(long, lat, { color: color, ttl: 1000, angle: size});
-	}
-},1000);
+// setInterval(function(){
+// 	if (cslide==3-1) {
+// 		document.getElementById('rotate').checked = true;
+// 		globe.plugins.pings.add(0,0, { color: color, ttl: 1000, angle: size});
+// 	}
+// 	else {
+// 		document.getElementById('rotate').checked = true;
+// 	}
+// },1000);
 
 $('#rotate').change(function() {
 	rotateGlobe = this.checked;
