@@ -5,7 +5,9 @@
 
 by **Cole Wilson**
 
-<audio src="/audio/s1.mp3" id="a"></audio><button onclick="document.getElementById('a').play()">Play Narration</button><button onclick="document.getElementById('a').pause()">Pause Narration</button>
+<audio src="/audio/s1.mp3" id="a"></audio><m><button onclick="document.getElementById('a').play()">Play Narration</button><button onclick="document.getElementById('a').pause()">Pause Narration</button></m>
+
+⬆️ Play Narration ⬆️
 
 <content>
 

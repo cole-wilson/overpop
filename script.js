@@ -99,13 +99,30 @@ function openFullscreen() {
   }
 }
 
+function checkOverflow()
+{
+	el = document.getElementById('slide');
+   var curOverflow = el.style.overflow;
 
+   if ( !curOverflow || curOverflow === "visible" )
+      el.style.overflow = "hidden";
+
+   var isOverflowing = el.clientWidth < el.scrollWidth 
+      || el.clientHeight < el.scrollHeight;
+
+   el.style.overflow = curOverflow;
+
+   return isOverflowing;
+}
 $('#inbetween').text('1'+'/'+slides.length);
 function elementAtMousePosition() {
 	return document.elementFromPoint(mx,my);
 }
-cslide = 0
-$('#slide').html(slides[0]);
+
+
+cslide = -1
+next();
+// $('#slide').html(slides[0]);
 
 // $.get("countries.json", function(data, status){
 // 	countries = data;
@@ -176,7 +193,11 @@ function it() {
 	else if (cslide==2-1) {
 		globe.projection.scale(400).rotate([-10, 0, 0]);
 	}
-	
+	setTimeout(function(){if (checkOverflow()){
+		$('#over').show();
+	}else{
+		$('#over').hide();
+	}},500)
 }
 function back() {
 	if (cslide-1>-1) {

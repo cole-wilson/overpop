@@ -151,6 +151,18 @@ content img {
 #container {
 	width: 100vw;
 }
+#over {
+	position: fixed;
+	top: 84vh;
+	border: 1px solid black;
+	background: white;
+	width: 200px;
+	text-align: center;
+	padding: 2px;
+	border-radius: 10px;
+	left: 20vw;
+	color: black;
+}
 #slide {
   -webkit-transition: height 2s ease;
   -moz-transition: height 2s ease;
