@@ -155,6 +155,17 @@ window.addEventListener("keydown", function(event){
 function thanks() {
 	$('#thanks').fadeIn();
 }
+
+document.getElementById('slide').onscroll = function() {
+	obj = document.getElementById('slide');
+	if( obj.scrollTop === (obj.scrollHeight - obj.offsetHeight)){
+		$('#over').hide();
+	}
+	else {
+		$('#over').show();
+	}
+}
+
 function it() {
 	if (cslide==7-1) {
 		$("#rocket").css({
@@ -193,7 +204,8 @@ function it() {
 	else if (cslide==2-1) {
 		globe.projection.scale(400).rotate([-10, 0, 0]);
 	}
-	setTimeout(function(){if (checkOverflow()){
+	setTimeout(function(){
+	if (checkOverflow()){
 		$('#over').show();
 	}else{
 		$('#over').hide();

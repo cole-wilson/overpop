@@ -27,6 +27,7 @@ p,h1,h2,h3,h4,h5,h6,i,b,u,s,ins,del,span,em,footer {
 }
 
 m {
+	cursor: url("/img/star2.png") 31 31,pointer!important;
 	display: inline;
 	border: 1px solid red;
 }
@@ -152,6 +153,11 @@ content img {
 	width: 100vw;
 }
 #over {
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -o-transition: all 2s ease;
+  -ms-transition: all 2s ease;
+  transition: all 2s ease;
 	position: fixed;
 	top: 84vh;
 	border: 1px solid black;
