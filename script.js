@@ -117,7 +117,7 @@ function it() {
 
 
 	if (cslide==3-1) {
-		globe.projection.scale(400).rotate([25, 0, 0]);
+		globe.projection.scale(300).rotate([25, 0, 0]);
 	}
 	else if (cslide==2-1) {
 		globe.projection.scale(400).rotate([-10, 0, 0]);

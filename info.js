@@ -180,7 +180,7 @@ In addition to the above sources, the following libraries/<wbr>frameworks have b
 
 ## Source Code
 
-The complete source code of this website can be found [here](https://github.com/cole-wilson/overpop#README).
+The complete source code of this website can be found [here](https://github.com/cole-wilson/overpop#readme).
 
 </content>
 `
