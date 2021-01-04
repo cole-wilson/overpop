@@ -107,13 +107,13 @@ function elementAtMousePosition() {
 cslide = 0
 $('#slide').html(slides[0]);
 
-$.get("countries.json", function(data, status){
-	countries = data;
-});
+// $.get("countries.json", function(data, status){
+// 	countries = data;
+// });
 
-$.get("data.json", function(data, status){
-	data = data;
-});
+// $.get("data.json", function(data, status){
+// 	data = data;
+// });
 
 
 
@@ -139,6 +139,13 @@ function thanks() {
 	$('#thanks').fadeIn();
 }
 function it() {
+	if (cslide==7-1) {
+		$("#rocket").css({
+		'bottom':"200px",
+		'right':"250px",
+	});
+	console.log('moved mars rocket');
+	}
 	if (cslide==8-1) {
 		setTimeout(mars,3000);
 	}
@@ -291,12 +298,12 @@ $('#reset').click(function(){
   globe.projection.scale(200).translate([250,250]).rotate([100, -10, 0]);
 
   var canvas = document.getElementById('Globe');
-  if (window.devicePixelRatio == 2) {
-    canvas.width = 100;
-    canvas.height = 800;
-    context = canvas.getContext('2d');
-    context.scale(2, 2);
-  }
+  // if (window.devicePixelRatio == 2) {
+  //   canvas.width = 100;
+  //   canvas.height = 800;
+  //   context = canvas.getContext('2d');
+  //   context.scale(2, 2);
+  // }
   globe.draw(canvas);
   function autorotate(degPerSec) {
     return function(planet) {
