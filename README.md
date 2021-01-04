@@ -1,4 +1,4 @@
-# Overpopultaion
+# Overpopulation
 _causes, effects, and solutions_
 
 View `info.js` for slides.

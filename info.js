@@ -5,6 +5,8 @@
 
 by **Cole Wilson**
 
+<audio src="/audio/s1.mp3" id="a"></audio><button onclick="document.getElementById('a').play()">Play Narration</button><button onclick="document.getElementById('a').pause()">Pause Narration</button>
+
 <content>
 
 I chose to focus on overpopulation because I believe it is an important
@@ -23,6 +25,8 @@ Some slides wil overflow the page, scroll down to see all the content.
 `,
 `
 # Human Impact
+
+<audio src="/audio/s2.mp3" id="a"></audio><button onclick="document.getElementById('a').play()">Play Narration</button><button onclick="document.getElementById('a').pause()">Pause Narration</button>
 
 <content>
 
@@ -46,6 +50,8 @@ These impacts relate to our biosphere and the space arund it because we only hav
 `
 # Direct Negative impacts
 
+<audio src="/audio/s3.mp3" id="a"></audio><button onclick="document.getElementById('a').play()">Play Narration</button><button onclick="document.getElementById('a').pause()">Pause Narration</button>
+
 <content>
 
 There are many serious impacts of overpopulation, some that are already quickly becoming out of hand.
@@ -62,6 +68,8 @@ There are many serious impacts of overpopulation, some that are already quickly 
 `
 # Stakeholders
 
+<audio src="/audio/s4.mp3" id="a"></audio><button onclick="document.getElementById('a').play()">Play Narration</button><button onclick="document.getElementById('a').pause()">Pause Narration</button>
+
 <content>
 
 There are many people to which the issue of population overgrowth is important. Mainly, this is true in lesser developed countries where the effects of overpopulation will be felt first, but everyone in the world is affected. 
@@ -76,6 +84,8 @@ Mainly, activists and organizations looking to stop population overgrowth are tr
 `
 # Potential Solutions
 
+<audio src="/audio/s5.mp3" id="a"></audio><button onclick="document.getElementById('a').play()">Play Narration</button><button onclick="document.getElementById('a').pause()">Pause Narration</button>
+
 <content>
 
 There are many solutions that can drastically decrease population growth, keeping it at an acceptable rate. 
@@ -86,6 +96,9 @@ There are three solutions that I will be focusing on in the following three slid
 `,
 `
 # Education & Healthcare
+
+<audio src="/audio/s6.mp3" id="a"></audio><button onclick="document.getElementById('a').play()">Play Narration</button><button onclick="document.getElementById('a').pause()">Pause Narration</button>
+
 
 <content>
 
@@ -102,6 +115,8 @@ I believe that this solution will work, but in some regions it will be hard to p
 `
 # Develop Nations
 
+<audio src="/audio/s7.mp3" id="a"></audio><button onclick="document.getElementById('a').play()">Play Narration</button><button onclick="document.getElementById('a').pause()">Pause Narration</button>
+
 <content>
 
 Developing undeveloped nations will move those nations up to the level that the United States and other highly developed countries. Research shows that more developed nations (see graph on slide 2) lower mortality rates, and decreased fertility rates.
@@ -114,7 +129,9 @@ This solution is likley the most effective, as it also ties in healthcare and ed
 
 `,
 `
-# Finding Other Places
+# Other Places
+
+<audio src="/audio/s8.mp3" id="a"></audio><button onclick="document.getElementById('a').play()">Play Narration</button><button onclick="document.getElementById('a').pause()">Pause Narration</button>
 
 <content>
 
