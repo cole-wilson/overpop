@@ -52,7 +52,7 @@ These impacts relate to our biosphere and the space arund it because we only hav
 `
 # Direct Negative impacts
 
-<audio src="/audio/s3.mp3" id="a"></audio><button style='	cursor: url("/img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').play()">Play Narration</button><button style='	cursor: url("/img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').pause()">Pause Narration</button>
+<audio src="/audio/s3.mp3" id="a"></audio><button style='	cursor: url("/img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').play()">Play Narration!</button><button style='	cursor: url("/img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').pause()">Pause Narration</button>
 
 <content>
 
@@ -60,7 +60,7 @@ There are many serious impacts of overpopulation, some that are already quickly 
 
  - **Deforestation:** One of the environmental impacts of overpoplation is that we are consuming more and more non-renewable natural resources to meet our increasing needs. In turn, less trees can decrease the Earth's ability to capture CO<sub>2</sub> and therefore can increase the rate of climate change. The graph below shows the deforestation rates of <m>South East Asia</m>, <m>the Congo Basin</m>, and <m>the Amazon Rainforest</m> growing over time.<br>![Deforestation of regions over time graph](https://scx2.b-cdn.net/gfx/news/2016/effectsofpas.jpg)<br><caption>Graph of deforestation of regions over time, [source](https://phys.org/news/2016-07-effects-tropical-deforestation-felt-years.html)</caption>
 
- - **Agricultural Impacts:** Another large impact of overpopulation is the increased need for food. Farmers must resort to intensive farming that can harm the natural world. According to a [study published by the UK Government](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/65505/6316-drivers-deforestation-report.pdf), farming causes over 80% of the world's defroestation.
+ - **Agricultural Impacts:** Another large impact of overpopulation is the increased need for food. Farmers must resort to intensive farming that can harm the natural world. According to a [study published by the UK Government](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/65505/6316-drivers-deforestation-report.pdf), farming causes over 80% of the world's deforestation.
 
  - **Decreased Quality of Life:** With population density growing, and resources decreasing, quality of life, especially in undeveloped countries will decrease. Unless we can do something quickly about rapid population growth, this will continue indefinitely.
 
