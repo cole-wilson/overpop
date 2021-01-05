@@ -1,17 +1,43 @@
 <!DOCTYPE html>
+<!--  
+ _____________________
+ |   (c) 2020-2021   |
+< Made by Cole Wilson >
+ |for honors biology |
+ ---------------------
+      \                    / \  //\
+       \    |\___/|      /   \//  \\
+            /0  0  \__  /    //  | \ \
+           /     /  \/_/    //   |  \  \
+           @_^_@'/   \/_   //    |   \   \
+           //_^_/     \/_ //     |    \    \
+        ( //) |        \///      |     \     \
+      ( / /) _|_ /   )  //       |      \     _\
+    ( // /) '/,_ _ _/  ( ; -.    |    _ _\.-~        .-~~~^-.
+  (( / / )) ,-{        _      `-.|.-~-.           .~         `.
+ (( // / ))  '/\      /                 ~-. _ .-~      .-~^-.  \
+ (( /// ))      `.   {            }                   /      \  \
+  (( / ))     .----~-.\        \-'                 .~         \  `. \^-.
+             ///.----..>        \             _ -~             `.  ^-`  ^-_
+               ///-._ _ _ _ _ _ _}^ - - - - ~                     ~-- ,.-~
+                                                                  /.-~
+
+-->
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Overpopulation and it's impacts on Earth's carrying capacity</title>
-    <link href="/style.css" rel="stylesheet" type="text/css" />
-		<base target="_blank">
-		<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
-  </head>
-  <body>
-		<div id="thanks">Thanks for Watching!<br><i>Questions?</i></div>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Overpopulation and it's impacts on Earth's carrying capacity</title>
+	<link href="/style.css" rel="stylesheet" type="text/css" />
+	<base target="_blank">
+	<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+</head>
+
+<body>
+	<div id="thanks">Thanks for Watching!<br><i>Questions?</i></div>
 		<div id="load" class="lds-roller">Loading...<div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
 		<img id="r2" class="ro" src="/img/rocket.png" alt="Rocket 1"/>
 		<img id="r3" class="ro" src="/img/rocket.png" alt="Rocket 2"/>
@@ -38,6 +64,7 @@
 					<div id="g"><canvas id='Globe' width='500' height='500'></canvas></div>
 					<br><input id="roc" type='checkbox' checked>
 					<label for="roc">Rockets</label>
+					<input id="crazy" type='checkbox'>
 					<br><input id="rotate" type='checkbox' checked>
 					<label for="rotate">Rotate Globe</label>
 					<br><input id="rmoon" type='checkbox' checked>
@@ -57,5 +84,5 @@
 		<footer>
 		&copy; 2020-2021 Cole Wilson<br><a href="javascript:last();" target="_top" style="cursor:pointer!important;">Sources</a></footer>
 		<div id="warn"><span>Notice:</span><br>You must have a bigger screen for this to work.<br>Please use a desktop or make the window larger or <button onclick="openFullscreen()">go fullscreen &#9974;</button>.<br><button onclick="$('#warn').css('display','none');">Ignore (not reccomended)</button></div>
-  </body>
+	</body>
 </html>

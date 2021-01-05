@@ -5,9 +5,9 @@
 
 by **Cole Wilson**
 
-<audio src="/audio/s1.mp3" id="a"></audio><button onclick="document.getElementById('a').play()">Play Narration</button><button onclick="document.getElementById('a').pause()">Pause Narration</button>
+<audio src="/audio/s1.mp3" id="a"></audio><button style='	cursor: url("/img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').play()">Play Narration</button><button style='	cursor: url("/img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').pause()">Pause Narration</button>
 
-<m>⬆️ Play Narration ⬆️</m>
+<m>⬆️ Play Narration&nbsp;</m>
 
 <content>
 
@@ -28,23 +28,23 @@ Some slides wil overflow the page, scroll down to see all the content.
 `
 # Human Impact
 
-<audio src="/audio/s2.mp3" id="a"></audio><button onclick="document.getElementById('a').play()">Play Narration</button><button onclick="document.getElementById('a').pause()">Pause Narration</button>
+<audio src="/audio/s2.mp3" id="a"></audio><button style='	cursor: url("/img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').play()">Play Narration</button><button style='	cursor: url("/img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').pause()">Pause Narration</button>
 
 <content>
 
-Humans are involved in overpoplation because we are mainly the ones causing it: there are about 7.6 Billion of us! (As of 2021.) This is be
+Humans are involved in overpoplation because we are mainly the ones causing it: there are about 7.6 Billion of us! (As of 2021.)
 
 There are many human impacts that cause overpopulation. These include some of the following:
 
  - One human impact is the decrease of the death rate. The decrease of this rate means that less children are dying, so more of them will grow up to have children of their own.<br>While it's good less people are dying, this will drastically increase the overall population, which isn't good.<br>![Graph of infant mortality rate](https://ourworldindata.org/exports/child-mortality-by-income-level-of-country_v2_850x600.svg)<br><caption>Infant mortality rate from [Our World In Data](https://ourworldindata.org/child-mortality)</caption>
 
- - Another human impact is improved agricultural and industrial tools, making t easier for people to get and create what they need. This also contributes to bringing the mortality rate up as well.
+ - Another human impact is improved agricultural and industrial tools, making it easier for people to get and create what they need. This also contributes to bringing the mortality rate down as well.
 
  - Additionally, poverty is also a large factor in overpopulation. People in less developed countries often do not have access to proper healthcare and family planning, which can lead to increased fertility rates. Countries such as <m>Niger</m> and <m>Angolia</m> are underdeveloped, and have the highest birth rates in the world.
 
  > There are many factors and causes that contribute to Earth's overpopulation, but the above are some of the most impactful.
 
-These impacts relate to our biosphere and the space arund it because we only have 1 Earth ,and we are quickly reaching it's carrying capacity. However, a solution to this may may outside of our biosphere and in another one somewhere else.
+These impacts relate to our biosphere and the space arund it because we only have 1 Earth ,and we are quickly reaching it's carrying capacity. However, a solution to this may lie outside of our biosphere and in another one somewhere else.
 
 </content>
 
@@ -52,13 +52,13 @@ These impacts relate to our biosphere and the space arund it because we only hav
 `
 # Direct Negative impacts
 
-<audio src="/audio/s3.mp3" id="a"></audio><button onclick="document.getElementById('a').play()">Play Narration</button><button onclick="document.getElementById('a').pause()">Pause Narration</button>
+<audio src="/audio/s3.mp3" id="a"></audio><button style='	cursor: url("/img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').play()">Play Narration</button><button style='	cursor: url("/img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').pause()">Pause Narration</button>
 
 <content>
 
 There are many serious impacts of overpopulation, some that are already quickly becoming out of hand.
 
- - **Deforestation:** One of the environmental impacts of overpoplation is that we are consuming more and more non-renewable natural resources to meet our increasing needs. In turn, less trees can decrease the Earth's ability to capture CO<sub>2</sub> and therfore can increase the rate of climate change. The graph below shows the deforestation rates of <m>South East Asia</m>, <m>the Congo Basin</m>, and <m>the Amazon Rainforest</m> growing over time.<br>![Deforestation of regions over time graph](https://scx2.b-cdn.net/gfx/news/2016/effectsofpas.jpg)<br><caption>Graph of deforestation of regions over time, [source](https://phys.org/news/2016-07-effects-tropical-deforestation-felt-years.html)</caption>
+ - **Deforestation:** One of the environmental impacts of overpoplation is that we are consuming more and more non-renewable natural resources to meet our increasing needs. In turn, less trees can decrease the Earth's ability to capture CO<sub>2</sub> and therefore can increase the rate of climate change. The graph below shows the deforestation rates of <m>South East Asia</m>, <m>the Congo Basin</m>, and <m>the Amazon Rainforest</m> growing over time.<br>![Deforestation of regions over time graph](https://scx2.b-cdn.net/gfx/news/2016/effectsofpas.jpg)<br><caption>Graph of deforestation of regions over time, [source](https://phys.org/news/2016-07-effects-tropical-deforestation-felt-years.html)</caption>
 
  - **Agricultural Impacts:** Another large impact of overpopulation is the increased need for food. Farmers must resort to intensive farming that can harm the natural world. According to a [study published by the UK Government](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/65505/6316-drivers-deforestation-report.pdf), farming causes over 80% of the world's defroestation.
 
@@ -70,13 +70,13 @@ There are many serious impacts of overpopulation, some that are already quickly 
 `
 # Stakeholders
 
-<audio src="/audio/s4.mp3" id="a"></audio><button onclick="document.getElementById('a').play()">Play Narration</button><button onclick="document.getElementById('a').pause()">Pause Narration</button>
+<audio src="/audio/s4.mp3" id="a"></audio><button style='	cursor: url("/img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').play()">Play Narration</button><button style='	cursor: url("/img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').pause()">Pause Narration</button>
 
 <content>
 
 There are many people to which the issue of population overgrowth is important. Mainly, this is true in lesser developed countries where the effects of overpopulation will be felt first, but everyone in the world is affected. 
 
-Mainly, activists and organizations looking to stop population overgrowth are trying to make sure that in 100 years, our children and grandchildren will still be able to live an adequate live, and not have to worry about overpopulation any more than we do.
+Mainly, activists and organizations looking to stop population overgrowth are trying to make sure that in 100 years, our children and grandchildren will still be able to live an adequate life, and not have to worry about overpopulation any more than we do.
 
 > _The human overpopulation issue is the topic I see as the most vital to solve if our children and grandchildren are to have a good quality of life._<br><br> ~ Alexandra Paul
 
@@ -86,7 +86,7 @@ Mainly, activists and organizations looking to stop population overgrowth are tr
 `
 # Potential Solutions
 
-<audio src="/audio/s5.mp3" id="a"></audio><button onclick="document.getElementById('a').play()">Play Narration</button><button onclick="document.getElementById('a').pause()">Pause Narration</button>
+<audio src="/audio/s5.mp3" id="a"></audio><button style='	cursor: url("/img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').play()">Play Narration</button><button style='	cursor: url("/img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').pause()">Pause Narration</button>
 
 <content>
 
@@ -99,7 +99,7 @@ There are three solutions that I will be focusing on in the following three slid
 `
 # Education & Healthcare
 
-<audio src="/audio/s6.mp3" id="a"></audio><button onclick="document.getElementById('a').play()">Play Narration</button><button onclick="document.getElementById('a').pause()">Pause Narration</button>
+<audio src="/audio/s6.mp3" id="a"></audio><button style='	cursor: url("/img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').play()">Play Narration</button><button style='	cursor: url("/img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').pause()">Pause Narration</button>
 
 
 <content>
@@ -117,7 +117,7 @@ I believe that this solution will work, but in some regions it will be hard to p
 `
 # Develop Nations
 
-<audio src="/audio/s7.mp3" id="a"></audio><button onclick="document.getElementById('a').play()">Play Narration</button><button onclick="document.getElementById('a').pause()">Pause Narration</button>
+<audio src="/audio/s7.mp3" id="a"></audio><button style='	cursor: url("/img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').play()">Play Narration</button><button style='	cursor: url("/img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').pause()">Pause Narration</button>
 
 <content>
 
@@ -133,7 +133,7 @@ This solution is likley the most effective, as it also ties in healthcare and ed
 `
 # Other Places
 
-<audio src="/audio/s8.mp3" id="a"></audio><button onclick="document.getElementById('a').play()">Play Narration</button><button onclick="document.getElementById('a').pause()">Pause Narration</button>
+<audio src="/audio/s8.mp3" id="a"></audio><button style='	cursor: url("/img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').play()">Play Narration</button><button style='	cursor: url("/img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').pause()">Pause Narration</button>
 
 <content>
 

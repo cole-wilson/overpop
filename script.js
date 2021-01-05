@@ -119,7 +119,6 @@ function elementAtMousePosition() {
 	return document.elementFromPoint(mx,my);
 }
 
-
 cslide = -1
 next();
 // $('#slide').html(slides[0]);
@@ -236,6 +235,7 @@ function next() {
 		});
 	}
 }
+crazy=10;
 function last() {
 	goclick=false;
 	$('#slide').fadeOut(function(){
@@ -283,6 +283,21 @@ var lat = 0;
 $('#rotate').change(function() {
 	rotateGlobe = this.checked;
 });
+$('#crazy').change(function() {//161520
+	if (this.checked) {
+		crazy=400;
+		$('#r2,#r3,#r4,#moon').css('animation-duration','0.4s');
+	}
+	else {
+		crazy=10;
+		globe.loadPlugin(autorotate(10));
+		$('#r2').css('animation-duration','16s');
+		$('#r3').css('animation-duration','15s');
+		$('#r4').css('animation-duration','20s');
+		$('#r4').css('animation-duration','10s');
+	}
+});
+
 $('#rmoon').change(function() {
 	if (this.checked) {
 		$('#moon').addClass('r');
@@ -353,7 +368,7 @@ $('#reset').click(function(){
           var now = new Date();
           var delta = now - lastTick;
           var rotation = planet.projection.rotate();
-          rotation[0] += degPerSec * delta / 1000;
+          rotation[0] += crazy * delta / 1000;
           if (rotation[0] >= 180) rotation[0] -= 360;
           planet.projection.rotate(rotation);
           lastTick = now;

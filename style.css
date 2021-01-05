@@ -33,7 +33,7 @@ m {
 }
 
 #Globe {
-	cursor: url("/img/earth.png") 31 31,auto!important;
+	cursor: url("/img/sat.png") 31 31,auto!important;
 }
 a {
 	cursor: url("/img/star2.png") 31 31,auto!important;
@@ -59,7 +59,18 @@ content img {
 #rocket,#mars {
 	position: fixed;
 }
+.ro, #rocket {
+	cursor: url("/img/astro.png") 31 31,auto!important;
+}
+#mars {
+	cursor: url("/img/rover.png") 31 31,auto!important;
+}
+label,input {
+	cursor: url("/img/pen.png") 1 1,auto!important;
+}
+
 #moon {
+	cursor: url("/img/lander.png") 31 31,auto!important;
 	position: fixed;
 	width: 70px;
 	bottom: 390px;
@@ -70,6 +81,7 @@ content img {
   animation-duration: 10s;
   animation-timing-function: linear;
 }
+
 #moon.r {
 	animation-name: moon;
 }
@@ -103,7 +115,13 @@ content img {
   from {top: 110vh; left: 110vw;}
   to {top: -100vh; left: -100vw;}
 }
-
+#crazy {
+	display: none;
+	position: fixed;
+	top: 0;
+	right: 0;
+	/* cursor: url("/img/rocket_small.png") 64 64,auto!important; */
+}
 #r3 {
 	transform: rotate(60deg);
   animation-duration: 15s;
