@@ -5,7 +5,7 @@
 
 by **Cole Wilson**
 
-<audio src="/audio/s1.mp3" id="a"></audio><button style='	cursor: url("/img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').play()">Play Narration</button><button style='	cursor: url("/img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').pause()">Pause Narration</button>
+<audio src="./audio/s1.mp3" id="a"></audio><button style='	cursor: url("./img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').play()">Play Narration</button><button style='	cursor: url("./img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').pause()">Pause Narration</button>
 
 <m>⬆️ Play Narration&nbsp;</m>
 
@@ -28,7 +28,7 @@ Some slides wil overflow the page, scroll down to see all the content.
 `
 # Human Impact
 
-<audio src="/audio/s2.mp3" id="a"></audio><button style='	cursor: url("/img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').play()">Play Narration</button><button style='	cursor: url("/img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').pause()">Pause Narration</button>
+<audio src="./audio/s2.mp3" id="a"></audio><button style='	cursor: url("./img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').play()">Play Narration</button><button style='	cursor: url("./img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').pause()">Pause Narration</button>
 
 <content>
 
@@ -52,7 +52,7 @@ These impacts relate to our biosphere and the space arund it because we only hav
 `
 # Direct Negative impacts
 
-<audio src="/audio/s3.mp3" id="a"></audio><button style='	cursor: url("/img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').play()">Play Narration!</button><button style='	cursor: url("/img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').pause()">Pause Narration</button>
+<audio src="./audio/s3.mp3" id="a"></audio><button style='	cursor: url("./img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').play()">Play Narration!</button><button style='	cursor: url("./img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').pause()">Pause Narration</button>
 
 <content>
 
@@ -70,7 +70,7 @@ There are many serious impacts of overpopulation, some that are already quickly 
 `
 # Stakeholders
 
-<audio src="/audio/s4.mp3" id="a"></audio><button style='	cursor: url("/img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').play()">Play Narration</button><button style='	cursor: url("/img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').pause()">Pause Narration</button>
+<audio src="./audio/s4.mp3" id="a"></audio><button style='	cursor: url("./img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').play()">Play Narration</button><button style='	cursor: url("./img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').pause()">Pause Narration</button>
 
 <content>
 
@@ -86,7 +86,7 @@ Mainly, activists and organizations looking to stop population overgrowth are tr
 `
 # Potential Solutions
 
-<audio src="/audio/s5.mp3" id="a"></audio><button style='	cursor: url("/img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').play()">Play Narration</button><button style='	cursor: url("/img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').pause()">Pause Narration</button>
+<audio src="./audio/s5.mp3" id="a"></audio><button style='	cursor: url("./img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').play()">Play Narration</button><button style='	cursor: url("./img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').pause()">Pause Narration</button>
 
 <content>
 
@@ -99,7 +99,7 @@ There are three solutions that I will be focusing on in the following three slid
 `
 # Education & Healthcare
 
-<audio src="/audio/s6.mp3" id="a"></audio><button style='	cursor: url("/img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').play()">Play Narration</button><button style='	cursor: url("/img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').pause()">Pause Narration</button>
+<audio src="./audio/s6.mp3" id="a"></audio><button style='	cursor: url("./img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').play()">Play Narration</button><button style='	cursor: url("./img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').pause()">Pause Narration</button>
 
 
 <content>
@@ -117,7 +117,7 @@ I believe that this solution will work, but in some regions it will be hard to p
 `
 # Develop Nations
 
-<audio src="/audio/s7.mp3" id="a"></audio><button style='	cursor: url("/img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').play()">Play Narration</button><button style='	cursor: url("/img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').pause()">Pause Narration</button>
+<audio src="./audio/s7.mp3" id="a"></audio><button style='	cursor: url("./img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').play()">Play Narration</button><button style='	cursor: url("./img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').pause()">Pause Narration</button>
 
 <content>
 
@@ -133,7 +133,7 @@ This solution is likley the most effective, as it also ties in healthcare and ed
 `
 # Other Places
 
-<audio src="/audio/s8.mp3" id="a"></audio><button style='	cursor: url("/img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').play()">Play Narration</button><button style='	cursor: url("/img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').pause()">Pause Narration</button>
+<audio src="./audio/s8.mp3" id="a"></audio><button style='	cursor: url("./img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').play()">Play Narration</button><button style='	cursor: url("./img/speaker.png") 31 31,auto!important;' onclick="document.getElementById('a').pause()">Pause Narration</button>
 
 <content>
 
