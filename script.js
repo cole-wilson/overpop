@@ -323,7 +323,7 @@ $('#reset').click(function(){
   globe = planetaryjs.planet();
   globe.loadPlugin(autorotate(10));
   globe.loadPlugin(planetaryjs.plugins.earth({
-    topojson: { file:   '/world-110m-withlakes.json' },
+    topojson: { file:   './world-110m-withlakes.json' },
     oceans:   { fill:   '#000080' },
     land:     { fill:   '#339966' },
     borders:  { stroke: '#aaa' }
