@@ -70,7 +70,7 @@ label,input {
 }
 
 #moon {
-	cursor: url("/mg/lander.png") 31 31,auto!important;
+	cursor: url("img/lander.png") 31 31,auto!important;
 	position: fixed;
 	width: 70px;
 	bottom: 390px;
